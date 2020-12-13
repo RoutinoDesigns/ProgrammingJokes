@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Programming Jokes</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Loading Screen-->
+    <div class="LoadingGif">
+      <div class="Loading-Anim"></div>
+    </div>
+    <!-- Joke-->
+    <div class="jokeContainer" id="jokeContainer">
+      <div class="jokeText">
+        <i class="fas fa-quote-left"></i>
+        <span id="joke"> </span>
+        <i class="fas fa-quote-right"></i>
+      </div>
+
+      <!--Tweet and generate another joke buttons -->
+      <div class="buttonContainer">
+        <button class="twitterButton" title="Click to Tweet" id="Twitter">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="newJoke">Try again!</button>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
